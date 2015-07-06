@@ -10,9 +10,10 @@ Python implementation for PLAN: A Policy-Aware and Network-Aware VM Management S
 ```
 
 ## Prerequisites
-* OpenDaylight (with OpenFlow plugin)
+* OpenDaylight (with OpenFlow plugin) or Ryu SDN Framework 
 * Xen Hypervisor v4.3+
 * Open vSwitch
+* SDN S-CORE (https://github.com/simon-jouet/sdnscore)
 
 ## Publications
 * Lin Cui, Fung Po Tso, Dimitrios P. Pezaros, Weijia Jia, Wei Zho, "Policy-Aware Virtual Machine Management in Data Center Networks", in the proceedings of IEEE ICDCS 2015, June 2015, Columbus, USA. 
