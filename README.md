@@ -1,5 +1,5 @@
 # PLAN
-Python implementation for PLAN: A Policy-Aware and Network-Aware VM Management Scheme for Cloud Data Centres. The distributed algorithm is implemented aloneside Xen Hypervisor and uses xl (http://wiki.xen.org/wiki/XL) to interact with it. SDN controller is imployed to support policy implementation/query and keeps flow statistics. 
+Python implementation for PLAN: A Policy-Aware and Network-Aware VM Management Scheme for Cloud Data Centres. The distributed algorithm is implemented aloneside Xen Hypervisor and uses xm to interact with it. Please note that this repo only contains distributed algorithms and policy query from a policy controller (SDN controller). Source for more sophiticated SDN orchestration including flow monitoring and statistics, link cost assignment etc is available at https://github.com/simon-jouet/sdnscore
 
 ## Repo Structure
 ```
@@ -11,7 +11,7 @@ Python implementation for PLAN: A Policy-Aware and Network-Aware VM Management S
 
 ## Prerequisites
 * OpenDaylight (with OpenFlow plugin) or Ryu SDN Framework 
-* Xen Hypervisor v4.3+
+* Xen Hypervisor v4.2+
 * Open vSwitch
 * SDN S-CORE (https://github.com/simon-jouet/sdnscore)
 
