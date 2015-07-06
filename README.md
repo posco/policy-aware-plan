@@ -1,5 +1,5 @@
 # PLAN
-Python implementation for PLAN: A Policy-Aware VM Management Scheme for Cloud Data Centres
+Python implementation for PLAN: A Policy-Aware and Network-Aware VM Management Scheme for Cloud Data Centres. The distributed algorithm is implemented aloneside Xen Hypervisor and uses xl (http://wiki.xen.org/wiki/XL) to interact with it. SDN controller is imployed to support policy implementation/query and keeps flow statistics. 
 
 ## Repo Structure
 ```
